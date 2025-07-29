@@ -3,90 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Democratic Refusal to Rise to the Moment</title>
+    <title>Democratic Refusal to Rise to the Moment (Tailwind CSS)</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 20px;
-            max-width: 800px;
-            margin-left: auto;
-            margin-right: auto;
-            color: #333;
-        }
-        h1 {
-            color: #2c3e50;
-            text-align: center;
-            margin-bottom: 30px;
-        }
-        h2 {
-            color: #34495e;
-            border-bottom: 2px solid #eee;
-            padding-bottom: 5px;
-            margin-top: 25px;
-        }
-        p {
-            margin-bottom: 15px;
-        }
-        ul {
-            list-style-type: disc;
-            margin-left: 20px;
-            margin-bottom: 15px;
-        }
-        li {
-            margin-bottom: 8px;
-        }
-        .intro-paragraph {
-            font-size: 1.1em;
-            font-style: italic;
-            text-align: justify;
-            margin-bottom: 30px;
-            padding: 15px;
-            background-color: #f9f9f9;
-            border-left: 5px solid #3498db;
+            font-family: 'Inter', sans-serif;
         }
     </style>
 </head>
-<body>
+<body class="font-sans leading-relaxed text-gray-800 p-5 md:p-10 bg-gray-50">
 
-    <h1>Democratic Refusal to Rise to the Moment</h1>
+    <div class="max-w-4xl mx-auto bg-white shadow-lg rounded-lg p-6 md:p-10">
+        <h1 class="text-4xl font-extrabold text-blue-800 text-center mb-8 rounded-md py-2">Democratic Refusal to Rise to the Moment</h1>
 
-    <p class="intro-paragraph">
-        The phrase "Democratic refusal to rise to the moment" suggests a critique of the Democratic Party's perceived inability or unwillingness to effectively address pressing issues, articulate a compelling vision, or adapt its political strategy to current challenges. This is a sentiment that has been voiced by various commentators and within the Democratic Party itself, particularly in the aftermath of recent electoral setbacks.
-    </p>
+        <p class="text-lg italic text-gray-700 text-justify mb-8 p-4 bg-blue-50 border-l-4 border-blue-500 rounded-md shadow-sm">
+            The phrase "Democratic refusal to rise to the moment" suggests a critique of the Democratic Party's perceived inability or unwillingness to effectively address pressing issues, articulate a compelling vision, or adapt its political strategy to current challenges. This is a sentiment that has been voiced by various commentators and within the Democratic Party itself, particularly in the aftermath of recent electoral setbacks.
+        </p>
 
-    <h2>Key Areas of Critique</h2>
-    <p>
-        Here are some of the key areas where this "refusal to rise to the moment" critique often surfaces:
-    </p>
+        <h2 class="text-3xl font-bold text-gray-700 border-b-2 border-gray-200 pb-2 mb-6 mt-10">Key Areas of Critique</h2>
+        <p class="mb-6">
+            Here are some of the key areas where this "refusal to rise to the moment" critique often surfaces:
+        </p>
 
-    <ul>
-        <li>
-            <strong>Messaging and Narrative:</strong> Critics argue that the Democratic Party often struggles to craft a clear, concise, and resonant message that connects with a broad range of voters, especially working-class voters and those without college degrees. There's a perception that the party can be overly reliant on technical policy details or culturally progressive language that alienates some segments of the electorate, rather than focusing on "kitchen table issues" in a relatable way.
-        </li>
-        <li>
-            <strong>Connecting with the Working Class:</strong> A significant concern is the Democratic Party's declining support among working-class voters of all races. Some analyses suggest that the party has shifted its focus towards college-educated professionals, losing touch with its traditional base. This is often linked to economic policies, trade, and cultural issues.
-        </li>
-        <li>
-            <strong>Policy vs. Programs:</strong> There's a critique that the Democratic Party tends to focus on creating specific government programs rather than developing a broader, coherent policy framework that addresses underlying systemic issues and enables overall well-being. This can lead to a fragmented approach that is harder for the public to grasp and less adaptable to new challenges.
-        </li>
-        <li>
-            <strong>Internal Divisions:</strong> The party faces internal ideological tensions between its progressive and moderate wings. These divisions can make it difficult to coalesce around a unified strategy and message, potentially leading to infighting and a lack of clear direction.
-        </li>
-        <li>
-            <strong>Adapting to a Changing Political Landscape:</strong> Some argue that the Democratic Party has been slow to adapt to a new political reality characterized by increased polarization, the rise of populism, and the proliferation of disinformation. There's a call for the party to develop more effective strategies for engaging in non-traditional media spaces and combating misinformation.
-        </li>
-        <li>
-            <strong>Gerontocracy and Leadership:</strong> Concerns have been raised about the age of Democratic leadership, with some suggesting that a younger generation of leaders is needed to revitalize the party and connect with younger voters.
-        </li>
-        <li>
-            <strong>Perception of Being "Too Liberal":</strong> Polling data has indicated a growing perception among Americans, including independents, that the Democratic Party has moved too far to the left. This perception can hinder the party's ability to attract swing voters.
-        </li>
-    </ul>
+        <ul class="list-disc ml-6 space-y-4">
+            <li class="mb-3 p-2 bg-gray-100 rounded-md shadow-sm">
+                <strong class="text-gray-900">Messaging and Narrative:</strong> Critics argue that the Democratic Party often struggles to craft a clear, concise, and resonant message that connects with a broad range of voters, especially working-class voters and those without college degrees. There's a perception that the party can be overly reliant on technical policy details or culturally progressive language that alienates some segments of the electorate, rather than focusing on "kitchen table issues" in a relatable way.
+            </li>
+            <li class="mb-3 p-2 bg-gray-100 rounded-md shadow-sm">
+                <strong class="text-gray-900">Connecting with the Working Class:</strong> A significant concern is the Democratic Party's declining support among working-class voters of all races. Some analyses suggest that the party has shifted its focus towards college-educated professionals, losing touch with its traditional base. This is often linked to economic policies, trade, and cultural issues.
+            </li>
+            <li class="mb-3 p-2 bg-gray-100 rounded-md shadow-sm">
+                <strong class="text-gray-900">Policy vs. Programs:</strong> There's a critique that the Democratic Party tends to focus on creating specific government programs rather than developing a broader, coherent policy framework that addresses underlying systemic issues and enables overall well-being. This can lead to a fragmented approach that is harder for the public to grasp and less adaptable to new challenges.
+            </li>
+            <li class="mb-3 p-2 bg-gray-100 rounded-md shadow-sm">
+                <strong class="text-gray-900">Internal Divisions:</strong> The party faces internal ideological tensions between its progressive and moderate wings. These divisions can make it difficult to coalesce around a unified strategy and message, potentially leading to infighting and a lack of clear direction.
+            </li>
+            <li class="mb-3 p-2 bg-gray-100 rounded-md shadow-sm">
+                <strong class="text-gray-900">Adapting to a Changing Political Landscape:</strong> Some argue that the Democratic Party has been slow to adapt to a new political reality characterized by increased polarization, the rise of populism, and the proliferation of disinformation. There's a call for the party to develop more effective strategies for engaging in non-traditional media spaces and combating misinformation.
+            </li>
+            <li class="mb-3 p-2 bg-gray-100 rounded-md shadow-sm">
+                <strong class="text-gray-900">Gerontocracy and Leadership:</strong> Concerns have been raised about the age of Democratic leadership, with some suggesting that a younger generation of leaders is needed to revitalize the party and connect with younger voters.
+            </li>
+            <li class="mb-3 p-2 bg-gray-100 rounded-md shadow-sm">
+                <strong class="text-gray-900">Perception of Being "Too Liberal":</strong> Polling data has indicated a growing perception among Americans, including independents, that the Democratic Party has moved too far to the left. This perception can hinder the party's ability to attract swing voters.
+            </li>
+        </ul>
 
-    <p>
-        In essence, the "Democratic refusal to rise to the moment" critique often boils down to the idea that the party needs to re-evaluate its core identity, its strategic approach to policy and messaging, and its ability to connect with a diverse electorate in an increasingly complex political environment.
-    </p>
+        <p class="mt-8 text-gray-700">
+            In essence, the "Democratic refusal to rise to the moment" critique often boils down to the idea that the party needs to re-evaluate its core identity, its strategic approach to policy and messaging, and its ability to connect with a diverse electorate in an increasingly complex political environment.
+        </p>
+
+        <!-- Button Section -->
+        <div class="flex justify-center mt-10">
+            <a href="dodems.html" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg shadow-md transition duration-300 ease-in-out transform hover:scale-105">
+                What to do?
+            </a>
+        </div>
+    </div>
 
 </body>
 </html>
