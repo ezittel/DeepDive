@@ -5,12 +5,12 @@ Pictures were either found on the web, or sent by family.
 
 <footer class="bg-gray-800 py-4 mt-auto shadow-inner">
         <div class="container mx-auto px-4 text-center text-gray-400 text-sm">
-            <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
-                <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" />
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
+                <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" />
             </a>
             <br />
-            This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+            This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
             <br />
-            &copy; 2025 Eric Zittel. CC-BY-SA. Some Rights Reserved.
+            &copy; 2025 Eric Zittel. CC-BY-NC-ND. Some Rights Reserved.
         </div>
     </footer>
