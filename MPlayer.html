@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Custom MP3 Player</title>
+    <title>MPlayer</title>
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
@@ -49,7 +49,7 @@
 
     <header class="bg-white shadow-md">
         <nav class="max-w-7xl mx-auto py-4 px-4 sm:px-6 lg:px-8 flex justify-between items-center">
-            <h1 class="text-2xl font-bold text-blue-800">Custom Audio Player</h1>
+            <h1 class="text-2xl font-bold text-blue-800">MPlayer</h1>
             <a href="index.html" class="text-blue-600 hover:text-blue-800 font-medium py-2 px-4 rounded-md transition duration-200 ease-in-out">
                 &larr; Back to Home
             </a>
@@ -61,7 +61,7 @@
             <h2 class="text-2xl font-bold text-gray-900 mb-6 text-center">My Awesome MP3 Player</h2>
 
             <!-- The Audio Element (hidden controls) -->
-            <audio id="myAudio" src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" preload="metadata"></audio>
+            <audio id="myAudio" src="/DeepDive/audio/kmz.mp3" preload="metadata"></audio>
             <!-- Placeholder for a real MP3: Replace with your actual MP3 file path -->
             <!-- For example: <audio id="myAudio" src="/audio/my-awesome-song.mp3" preload="metadata"></audio> -->
 
@@ -96,14 +96,23 @@
             </div>
 
             <p class="text-sm text-gray-500 mt-6 text-center">
-                (Using a sample MP3 from SoundHelix.com for demonstration purposes.)
+                (Episode 35 - Katherine Mikkelson.)
             </p>
         </div>
     </main>
 
-    <footer class="bg-gray-200 text-center py-4 text-sm text-gray-600 mt-auto">
-        <p>&copy; 2024 Custom Audio Player Demo</p>
+    <footer class="bg-gray-800 py-4 mt-auto shadow-inner">
+        <div class="container mx-auto px-4 text-center text-gray-400 text-sm">
+            <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+                <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" />
+            </a>
+            <br />
+            This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+            <br />
+            &copy; 2025 Eric Zittel. CC-BY-SA. Some Rights Reserved.
+        </div>
     </footer>
+
 
     <script>
         const myAudio = document.getElementById('myAudio');
